@@ -1,4 +1,4 @@
-$primary-color: #ffd700;
+$primary-color: #b30fff;
 
 @import 'animate.css';
 
@@ -16,6 +16,12 @@ $primary-color: #ffd700;
   font-family: 'Coolvetica';
   src: url('./assets/CoolveticaRg-Regular.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Casacadia Code';
+  src: url('./assets/CascadiaCode.woff2') format('woff2');
+}
+
 
 input,
 textarea{
