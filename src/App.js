@@ -5,6 +5,9 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
+import ShopApp from './components/ShopApp';
+import SoulControl from './components/ShopApp/soulControl';
+import CombatAlley from './components/ShopApp/combatAlley';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="projects" element={<Projects/>}/>
+        <Route path="shoppingApp" element={<ShopApp/>}/>
+        <Route path="soulControl" element={<SoulControl/>}/>
+        <Route path="combatAlley" element={<CombatAlley/>}/>
       </Route>
     </Routes>
   );

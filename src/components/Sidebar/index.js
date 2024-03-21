@@ -3,7 +3,7 @@ import './index.scss'
 import LogoF from '../../assets/images/Logo1.png'
 import LogoSub from '../../assets/images/logoSub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
@@ -25,13 +25,18 @@ const Sidebar = () => (
         </nav>
         <ul>
             <li>
-                <a target="_blank" rel="noreferrer" href="www.linkedin.com/in/fayaz-seedat-220b72149">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fayaz-seedat-220b72149/">
                     <FontAwesomeIcon icon={faLinkedin} color="#e6e6e6"/>
                 </a>
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href="https://github.com/fayaz-09">
                     <FontAwesomeIcon icon={faGithub} color="#e6e6e6"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel="noreferrer" href="mailto:fayazseedat09@gmail.com">
+                    <FontAwesomeIcon icon={faEnvelope} color="#e6e6e6"/>
                 </a>
             </li>
         </ul>

@@ -44,7 +44,7 @@
         }
 
         p{
-            font-size: 13px;
+            font-size: 19px;
             color: #b30fff;
             font-family: 'Cascadia Code';
             font-weight: 300;
@@ -58,6 +58,29 @@
             &:nth-of-type(2) {
                 animation-delay: 2.4s;
             }
+
+            &:nth-of-type(3) {
+                animation-delay: 3.4s;
+            }
+        }
+
+        h2{
+            font-size: 33px;
+            font-family: 'Coolvetica';
+            color: #35004e;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            left: 10px;
+        }
+
+        ul{
+            font-size: 23px;
+            color: #b30fff;
+            font-family: 'Cascadia Code';
+            font-weight: 300;
+            min-width: fit-content;
         }
     }
 

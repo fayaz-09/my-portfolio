@@ -10,12 +10,12 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['a', 'y', 'a', 'z']
     const surnameArray = ['e', 'e', 'd', 'a', 't']
-    const roleArray = ['G', 'r', 'a' ,'d', 'u', 'a', 't', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+    const roleArray = ['G', 'r', 'a' ,'d', 'u', 'a', 't', 'e', ' ', 'S', 'o', 'f', 't', 'w', 'a', 'r', 'e' , ' ','D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
         setTimeout(() => {
             return setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 5000)
     }, [])
 
     return(
