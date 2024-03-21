@@ -42,12 +42,14 @@ const About = () => {
                 <ul>
                     <li>C#, C++</li>
                     <li>.NET</li>
+                    <li>HTML, CSS, JavaScript, React</li>
                     <li>OpenGL</li>
                     <li>SQL</li>
                     <li>Object-oriented programming (OOP)</li>
                     <li>Agile development</li>
                     <li>Unity</li>
                     <li>Visual Studio</li>
+                    <li>Github</li>
                 </ul>
             </div>
         </div>
