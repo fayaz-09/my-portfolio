@@ -44,7 +44,7 @@ const Home = () => {
                 </h1>
 
                 <h2>C#/C++ Developer</h2>
-                <Link to="/contact" className="flat-button">Contact Me</Link>
+                <Link to="mailto:fayazseedat09@gmail.com" className="flat-button">Contact Me</Link>
             </div>
 
             <Logo/>
