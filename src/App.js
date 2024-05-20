@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import ShopApp from './components/ShopApp';
 import SoulControl from './components/ShopApp/soulControl';
 import CombatAlley from './components/ShopApp/combatAlley';
+import PizzaPhil from './components/ShopApp/pizzaPhil';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="shoppingApp" element={<ShopApp/>}/>
         <Route path="soulControl" element={<SoulControl/>}/>
         <Route path="combatAlley" element={<CombatAlley/>}/>
+        <Route path="pizzaPhil" element={<PizzaPhil/>}/>
       </Route>
     </Routes>
   );

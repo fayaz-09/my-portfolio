@@ -30,7 +30,7 @@ const Projects = () => {
             </h1>
         </div>
         <div className="project-display">
-            <NavLink to="/shoppingApp">
+            <NavLink to="/pizzaPhil">
                 <div className="single grow">
                     <div className="image-holder">
                         <img src={PPP}/>
