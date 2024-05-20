@@ -5,6 +5,7 @@ import spaceInvader from '../../assets/images/spaceInvaders.png'
 import shopApp from '../../assets/images/ShopApp.png'
 import soulControl from '../../assets/images/healthBars.PNG'
 import comAlley from '../../assets/images/combatAlley.jpg'
+import PPP from '../../assets/images//PizzaPhantomPhil/MainImg.png'
 import { NavLink } from 'react-router-dom';
 
 const Projects = () => {
@@ -29,6 +30,26 @@ const Projects = () => {
             </h1>
         </div>
         <div className="project-display">
+            <NavLink to="/shoppingApp">
+                <div className="single grow">
+                    <div className="image-holder">
+                        <img src={PPP}/>
+                    </div>
+                    
+                    <h1>Pizza Phantom Phil DevLog</h1>
+                    <p>
+                        Currently working on making a 2D isometric game within unity and will be periodically detailing my progress. The goal of the game is to make and deliver pizzas 
+                        to fulfill customer orders while avoiding various obstacles. Each fulfilled order will increase the players movement speed allowing them to more efficiently complete
+                        each level. 
+                    </p>
+                    <ul>
+                        <li className="grow">C#</li>
+                        <li>Visual Studio</li>
+                        <li>Unity</li>
+                        <li>OOP</li>
+                    </ul>
+                </div>
+            </NavLink>
             <NavLink to="/shoppingApp">
                 <div className="single grow">
                     <div className="image-holder">
