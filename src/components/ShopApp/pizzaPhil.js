@@ -8,7 +8,14 @@ import baseSprite from '../../assets/images/PizzaPhantomPhil/BaseChar.png'
 import philT from '../../assets/images/PizzaPhantomPhil/philForward.png'
 import philA from '../../assets/images/PizzaPhantomPhil/philAway.png'
 import philAll from '../../assets/images/PizzaPhantomPhil/philAll.png'
-
+import tiles from '../../assets/images/PizzaPhantomPhil/tilesheet.png'
+import map1 from '../../assets/images/PizzaPhantomPhil/tilemap1.png'
+import map2 from '../../assets/images/PizzaPhantomPhil/tilemap2.png'
+import map3 from '../../assets/images/PizzaPhantomPhil/tilemap3.png'
+import Lighting from '../../assets/images/PizzaPhantomPhil/Lighting1.png'
+import tileNorm from '../../assets/images/PizzaPhantomPhil/normal_painting.png'
+import philNorm from '../../assets/images/PizzaPhantomPhil/phil_normals.png'
+import lightingNorm from '../../assets/images/PizzaPhantomPhil/normal_lighting.png'
 
 const PizzaPhil = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -72,7 +79,88 @@ const PizzaPhil = () => {
                     </p>
                 </div>
 
+                <h1>Update 20/05/24</h1>
 
+                <h2>Tilemapping</h2>
+
+                <p>
+                    Assets were also needed for creating levels and so I chose a tile based approach for level creation. This approach would allow me to create a level by painting
+                    various tiles onto a grid to build a complete environment for the player to traverse. 
+                </p>
+
+                <div className="details-container">
+                    <p>
+                        The first step in this process was to create a spritesheet with a variety of tiles which I could then import into unity. Each tile had to be the same size
+                        so they could snap to the grid smoothly and for this I chose to make the tiles 32x32 pixels in size. This approach allowed me to create multiple tile designs 
+                        for a varied looking level.
+                    </p>
+                    <img src={tiles} className="icon"/>
+                </div>
+
+                <div className="details-container">
+                    <p>
+                        Once imported I spliced the spritesheet into it's individual tiles and added the tiles to a tile palette so I could begin painting on a tilemap created in the scene. I also took this time
+                        to add phil to the scene so I could have a visual reference of him in the scene and his size compared to the environment.
+                    </p>
+                    <img src={map1} className="icon"/>
+                </div>
+
+                <p>
+                    I could now begin painting tiles by selecting one within the palette and drawing it onto the tilemap. I tried to create a simple scene of a city road with a path
+                    for pedestrians on the side. 
+                </p>
+
+                <div className="column-container">
+                    <img src={map2} className="icon"/>
+                    <img src={map3} className="icon"/>
+                </div>
+
+                <h2>Lighting</h2>
+
+                <div className="column-container">
+                    <img src={Lighting} className="icon"/>
+                </div>
+
+                <p>
+                    I wasn't entirely happy with how the current lighting looks in the scene and how it interacts with the tiles. When adding a point light to the scene 
+                    it does well with lighting up parts of the tiles that are within it's range, however it didn't convey the depth of the tiles well. I was familiar with various lighting
+                    models from work i've done with 3D graphics programming but wasn't sure how I could apply them with 2D sprites. Doing some research I found that unity allows for
+                    normal mapping of sprites which will add the depth of lighting i'm looking for.
+                </p>
+
+                <p>
+                    This approach to lighting needs a seperate spritesheet containg the colour data for the normals of the tiles. Normals in 3D lighting are vectors that are perpendicular to the 
+                    surface of a vertex. Essentially they are used to calculate how light bounces of the surface of an object. To get the same information for a 2D sprite you can manually
+                    create these normals by taking the base spritesheet and swapping the colours for one that relates to the direction each side of the sprite is facing. This had to be done
+                    for the tiles and phil as the lighting needs to apply to all the sprites the same way.
+                </p>
+
+                <div className="column-container">
+                    <img src={tileNorm} className="icon"/>
+                    <img src={philNorm} className="icon"/>
+                </div>
+
+                <p>
+                    To add normal lighting the normal maps need to be assigned as a secondary texture for the sprites, and the light objects have a setting for normal lighting which needs to be turned on.
+                    The end result is a scene where the 2D sprites appear to have a bit more depth to them. This still needs to be tweaked a bit and I will continue to improved
+                    the look of it overtime by adjusting lighting values and the normal maps. The inclusion of normal mapping means I have to create normal maps for each sprite 
+                    created for the game, from characters to objects and buildings.  
+                </p>
+
+                <div className="column-container">
+                    <img src={lightingNorm} className="icon"/>
+                </div>
+
+                <h2>Creating a basic scene</h2>
+
+                <div className="details-container">
+                    <p>
+                    Before I begin work on gameplay I needed a basic looking area for the character to move around in and test gameplay features. I created three new sprites for this,
+                    one a lampost where the light objects will be placed over and the other two are house designs. These will serve as delivery locations during the testing phase.
+                    I created a street where I can test movement freely with enough space to figure out the correct base movement speed.  
+                    </p>
+                    <img src={titleImage} className="icon"/>
+                </div>
 
             </div>
         </div>
