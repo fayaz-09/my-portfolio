@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bacd2bc8.css",
-    "main.js": "/my-portfolio/static/js/main.96336ac3.js",
+    "main.css": "/my-portfolio/static/css/main.e2f378d9.css",
+    "main.js": "/my-portfolio/static/js/main.f59dc40f.js",
     "reactPlayerYouTube.js": "/my-portfolio/static/js/reactPlayerYouTube.27d4d07f.chunk.js",
     "reactPlayerSoundCloud.js": "/my-portfolio/static/js/reactPlayerSoundCloud.fa9f9845.chunk.js",
     "reactPlayerVimeo.js": "/my-portfolio/static/js/reactPlayerVimeo.4d7d0f34.chunk.js",
@@ -24,12 +24,18 @@
     "static/media/ShopApp.png": "/my-portfolio/static/media/ShopApp.229be82b05d09c0c6cae.png",
     "static/media/Enemy_Spear_charge.png": "/my-portfolio/static/media/Enemy_Spear_charge.2e7bdf8ad3ef466f4909.png",
     "static/media/shopHome1.png": "/my-portfolio/static/media/shopHome1.c9f305c27aa9b0b91796.png",
+    "static/media/MainImg.png": "/my-portfolio/static/media/MainImg.0b528305adc05405afbd.png",
     "static/media/shopHome2.png": "/my-portfolio/static/media/shopHome2.eee350d45455ffe31cee.png",
+    "static/media/Lighting1.png": "/my-portfolio/static/media/Lighting1.daf16ed4619ce4a378e8.png",
     "static/media/shopItem.png": "/my-portfolio/static/media/shopItem.803ab47627a396d0530c.png",
     "static/media/CascadiaCode.woff2": "/my-portfolio/static/media/CascadiaCode.61442455812b2cee49c4.woff2",
+    "static/media/normal_lighting.png": "/my-portfolio/static/media/normal_lighting.00cdf2436f87616ba2c0.png",
+    "static/media/tilemap2.png": "/my-portfolio/static/media/tilemap2.2d1a58b693a3ce52579f.png",
+    "static/media/tilemap3.png": "/my-portfolio/static/media/tilemap3.26f38c1a00e3fb282ea3.png",
     "static/media/shopDark.png": "/my-portfolio/static/media/shopDark.161d0294bb681ec63c8f.png",
     "static/media/Enemy_Spear.png": "/my-portfolio/static/media/Enemy_Spear.0f7260d7fbc33e78c99a.png",
     "static/media/Enemy_Spear_Forward.png": "/my-portfolio/static/media/Enemy_Spear_Forward.188e96b38861811d3532.png",
+    "static/media/tilemap1.png": "/my-portfolio/static/media/tilemap1.47f497b640a7781e7221.png",
     "static/media/attack_button.png": "/my-portfolio/static/media/attack_button.8b5787a33248eb5ca838.png",
     "static/media/shopCart.png": "/my-portfolio/static/media/shopCart.7e929bc893e88176025a.png",
     "static/media/Enemy_1.png": "/my-portfolio/static/media/Enemy_1.c27c85c16f0703706309.png",
@@ -41,11 +47,13 @@
     "static/media/helvetica-neu.ttf": "/my-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/my-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/logoSub.png": "/my-portfolio/static/media/logoSub.e54deb0f949d61888783.png",
+    "static/media/tilesheet.png": "/my-portfolio/static/media/tilesheet.04e4bd7d1caf4e15d15b.png",
+    "static/media/normal_painting.png": "/my-portfolio/static/media/normal_painting.7103530403e37c5efc38.png",
     "static/media/spaceInvaders.png": "/my-portfolio/static/media/spaceInvaders.3670c187216adc7df503.png",
     "static/media/CoolveticaRg-Regular.woff2": "/my-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.bacd2bc8.css.map": "/my-portfolio/static/css/main.bacd2bc8.css.map",
-    "main.96336ac3.js.map": "/my-portfolio/static/js/main.96336ac3.js.map",
+    "main.e2f378d9.css.map": "/my-portfolio/static/css/main.e2f378d9.css.map",
+    "main.f59dc40f.js.map": "/my-portfolio/static/js/main.f59dc40f.js.map",
     "reactPlayerYouTube.27d4d07f.chunk.js.map": "/my-portfolio/static/js/reactPlayerYouTube.27d4d07f.chunk.js.map",
     "reactPlayerSoundCloud.fa9f9845.chunk.js.map": "/my-portfolio/static/js/reactPlayerSoundCloud.fa9f9845.chunk.js.map",
     "reactPlayerVimeo.4d7d0f34.chunk.js.map": "/my-portfolio/static/js/reactPlayerVimeo.4d7d0f34.chunk.js.map",
@@ -63,7 +71,7 @@
     "453.41811d64.chunk.js.map": "/my-portfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bacd2bc8.css",
-    "static/js/main.96336ac3.js"
+    "static/css/main.e2f378d9.css",
+    "static/js/main.f59dc40f.js"
   ]
 }
