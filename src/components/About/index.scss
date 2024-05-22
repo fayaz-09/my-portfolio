@@ -1,4 +1,6 @@
 .about-page {
+
+    overflow-y: scroll;
     .text-area {
         position: absolute;
         left: 10%;
@@ -89,4 +91,13 @@
             color: #b30fff;
         }
     }
+}
+
+.about-page::-webkit-scrollbar{
+    width: 10px;
+}
+
+.about-page::-webkit-scrollbar-thumb{
+    background: #35004e;
+    border-radius: 15px;
 }
